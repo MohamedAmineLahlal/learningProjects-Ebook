@@ -1,0 +1,46 @@
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
+}
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+.sticky-nav {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cls-1 {
+  z-index: -1;
+}
+.icons {
+  z-index: 100;
+  margin-top: -1px;
+}
+.modal-dialog {
+  max-width: 1040px;
+}
+
+.header {
+  background: url(../images/header-background.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.download {
+  background: url("../images/download-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.footer .col-md-4 p {
+  margin-bottom: 0;
+}
+
+.footer .col-md-4 {
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (max-width: 768px) {
+  .footer-list {
+    justify-content: center;
+  }
+}
